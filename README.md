@@ -2,7 +2,7 @@
 
 This sensor node was designed to be used in the MySensors dollhouse display, created for the [Eindhoven Maker Faire 2017](http://www.eindhovenmakerfaire.nl)
 
-<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/multiple.jpg" alt="Ikea Molgan LED light">
+<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/multiple.jpg">
 Left-to-right: gesture sensor, door sensor, wind sensor, soil moisture sensor
 
 Original requirements
@@ -24,11 +24,11 @@ Original requirements
 
 The resulting node is very small (28.5 x 25.5mm, excluding antenna) and costs roughly E4,30/piece (excluding sensor)
 
-<img src="./images/top_pcb.jpg" height="250"> <img src="./images/bottom_pcb.jpg" height="250">
+<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/top_pcb.jpg" height="250"> <img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/bottom_pcb.jpg" height="250">
 
 Layout
 ========
-<img src="./images/top.png" height="250"> <img src="./images/bottom.png" height="250">
+<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/top.png" height="250"> <img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/bottom.png" height="250">
 
 Addon board
 ========
@@ -60,13 +60,13 @@ Programming
 To keep the sensor small the ISP and FTDI connectors are scaled down to use pogo pins for programming.
 ISP programming requires a [ProtoProg](http://protofusion.org/wordpress/2013/05/open-hardware-pogo-pin-programmer/) adapter.
 
-<img src="./images/proto_prog.jpg">
+<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/proto_prog.jpg">
 
 To flash the bootloader refer to my [Ikea Molgan Hack](https://github.com/Yveaux/Ikea_Molgan_Hack)
 
 The serial connection used by the Arduino IDE is available at a 5 pin FTDI-to-pogo adapter, also included in this repository. Make sure to align the white pin on the adapter to the white pin on the board. I use the node's power when programming at 3V3 serial levels.
 
-<img src="./images/pogo_ftdi_node.jpg" height="250"> <img src="./images/pogo_ftdi_adapter.jpg" height="250">
+<img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/pogo_ftdi_node.jpg" height="250"> <img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/pogo_ftdi_adapter.jpg" height="250">
 
 Known issues
 ========
