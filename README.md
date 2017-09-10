@@ -55,6 +55,8 @@ Mount the power LED (and its resistor R2) if you prefer a visible indication of 
 
 Pull-up resistors R4-R11 can be used for digital inputs to further reduce the power drain. Mount approx. 1Meg ohm and disable internal pullups.
 
+When powered from a 5V supply (and AMS1117 mounted) use the RAW and GND pins to power the board.
+
 Programming
 ========
 To keep the sensor small the ISP and FTDI connectors are scaled down to use pogo pins for programming.
