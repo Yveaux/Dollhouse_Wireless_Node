@@ -30,6 +30,23 @@ Layout
 ========
 <img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/top.png" height="250"> <img src="https://raw.githubusercontent.com/Yveaux/Dollhouse_Wireless_Node/master/images/bottom.png" height="250">
 
+Addon connector pinout
+========
+| Pin  | Arduino Pin | Alternate Function |
+| ---- | --- | --- |
+| 1    | GND | | |
+| 2    | VCC |
+| 3    | 2 | INT0 |
+| 4    | 3 | INT1 |
+| 5    | A5 | I2C SCL |
+| 6    | A4 | I2C SDA |
+| 7    | 5 | |
+| 8    | 6 | |
+| 9    | 7 | |
+| 10   | 8 | |
+
+Pin 1 is next to the FTDI pogo pin connector.
+
 Addon board
 ========
 I created a small addon board to simplify connecting a numer of standard sensors. It can be mounted on the IO connector using male headers.
