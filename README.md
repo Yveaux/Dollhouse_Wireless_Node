@@ -36,8 +36,8 @@ Addon connector pinout
 | ---- | --- | --- |
 | 1    | GND | | |
 | 2    | VCC |
-| 3    | 2 | INT0 |
-| 4    | 3 | INT1 |
+| 3    | 3 | INT1 |
+| 4    | 2 | INT0 |
 | 5    | A5 | I2C SCL |
 | 6    | A4 | I2C SDA |
 | 7    | 5 | |
